@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a045430-3e45-4748-8a47-012027daf9c3">
+  <producedTypes>
+    <selectionType typeId="ed169047-d519-44bb-b11b-741c4e08eced" valueTypeId="021c338b-c894-42b4-9d0d-2a8d6a63a6b8"/>
+    <listType typeId="7e7f85c4-5773-4644-9fe5-59fd28933e19" valueTypeId="35b06070-9a43-4304-83eb-c742bdd2287d"/>
+    <managerType typeId="538d7c45-598e-487b-9210-80bc12f6b4c3" valueTypeId="9052d990-2bcf-41ed-bfad-9b7e162d4d0a"/>
+    <recordSetType typeId="72c681ff-7de5-492d-9fc1-ba0fa9ce6285" valueTypeId="4e473f1d-97c0-4ecc-886c-12af9da963a2"/>
+    <recordKeyType typeId="c3775f8f-4c76-45c4-be20-e8e3a16338b0" valueTypeId="3fdbea1a-313b-4bf0-9714-b0a01072b418"/>
+    <recordType typeId="edb3b560-f4fc-4996-bbe2-f7a6fbf7114b" valueTypeId="25e8d6ed-bd4e-4d60-b243-387a7f27267b"/>
+    <recordManagerType typeId="f411e86c-25f6-4ff3-a5fa-7a36ed850688" valueTypeId="4cc33e8b-7e4e-4fcb-93c4-fb76110a613b"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="24881430-b0d0-4c87-9f9e-fee5945c0db3">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.УчетнаяПолитика</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>
